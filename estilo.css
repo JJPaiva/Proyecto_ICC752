@@ -168,3 +168,46 @@ body {
   }
   .welcome h1 { font-size: 1.5em; }
 }
+
+/* Estilo para la lista de stakeholders */
+.stakeholders-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.stakeholders-list li {
+  margin-bottom: 20px;
+}
+
+/* Destacado para el stakeholder primario */
+.stakeholder-primary {
+  background: #e3f2fd;
+  border-left: 5px solid #1976d2;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  font-size: 1.05em;
+}
+
+.stakeholder-primary > strong {
+  color: #1565c0;
+  display: block;
+  margin-bottom: 12px;
+  font-size: 1.1em;
+}
+
+/* Sublista: roles dentro del cuerpo de bomberos */
+.roles-list {
+  margin: 10px 0 0 20px;
+  padding-left: 15px;
+  border-left: 2px dashed #64b5f6;
+}
+
+.roles-list li {
+  margin: 8px 0;
+  color: #333;
+}
+
+.roles-list li strong {
+  color: #0d47a1;
+}
