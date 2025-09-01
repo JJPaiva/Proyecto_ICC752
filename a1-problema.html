@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>A1: Problema & Contexto</title>
+  <link rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Menú Lateral (igual en todas las páginas) -->
+    <nav class="sidebar">
+      <h2>📌 Documentación</h2>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="a1-problema.html" class="active">A1: Problema & Contexto</a></li>
+      </ul>
+    </nav>
+
+    <!-- Contenido de A1 -->
+    <main class="content">
+      <h1>Actividad A1: Problema & Contexto</h1>
+
+      <section>
+        <h2>1. Formulación del Problema</h2>
+        <p>En muchas ciudades, los cuerpos de bomberos y servicios de emergencia enfrentan una creciente cantidad de incendios urbanos, forestales y estructurales, cuya frecuencia y severidad se ven agravadas por factores como el cambio climático, la expansión urbana desordenada, y la falta de planificación basada en datos.
+          Actualmente, no existe un sistema centralizado ni accesible que registre de forma sistemática los incendios ocurridos en la ciudad, incluyendo su ubicación, causa, tipo, fecha, y respuesta operativa. Esta falta de registro estructurado limita la capacidad de los bomberos para analizar patrones históricos, predecir zonas de alto riesgo y tomar decisiones informadas en la planificación de rutas, dotación de recursos y campañas preventivas.
+          Como resultado, muchas intervenciones siguen siendo reactivas en lugar de proactivas, lo que puede derivar en una respuesta más lenta, mayores daños materiales y riesgos para la vida humana.</p>
+      </section>
+
+      <section>
+        <h2>2. Contexto</h2>
+        <p>Este proyecto se desarrolla en el contexto urbano de una ciudad con crecimiento poblacional acelerado y exposición a factores climáticos que incrementan el riesgo de incendios. Aunque existen reportes aislados en medios de comunicación o en informes internos de bomberos, estos datos suelen estar dispersos, incompletos o no son analizados de forma sistemática.
+          Además, muchos cuerpos de bomberos voluntarios o municipales tienen recursos limitados y no cuentan con herramientas tecnológicas avanzadas para la toma de decisiones basada en datos. Por otro lado, organismos de gestión de riesgos y planificación urbana también necesitan información histórica y georreferenciada para diseñar políticas de prevención.</p>
+      </section>
+
+      <section>
+        <h2>3. Justificación</h2>
+        <p>
+          Desarrollar una plataforma web que registre y analice datos de incendios es relevante por las siguientes razones:
+        </p>
+        <ul>
+          <li>
+            <strong>Prevención proactiva:</strong> 
+            Al identificar patrones (por ejemplo, más incendios en verano, en zonas industriales o por fallas eléctricas), 
+            los bomberos pueden intensificar campañas de prevención en épocas y lugares críticos.
+          </li>
+          <li>
+            <strong>Optimización de recursos:</strong> 
+            Conocer las zonas de mayor riesgo permite distribuir mejor equipos, vehículos y personal.
+          </li>
+          <li>
+            <strong>Toma de decisiones basada en datos:</strong> 
+            Los líderes operativos pueden usar estadísticas históricas para entrenar a sus equipos, 
+            simular escenarios y mejorar protocolos.
+          </li>
+          <li>
+            <strong>Transparencia y educación ciudadana:</strong> 
+            La plataforma puede tener una capa pública que informe a la comunidad sobre riesgos y buenas prácticas, 
+            fomentando una cultura de prevención.
+          </li>
+          <li>
+            <strong>Apoyo a políticas públicas:</strong> 
+            Los datos pueden ser utilizados por autoridades locales para planificar urbanismo seguro, 
+            regular actividades de alto riesgo o intervenir en barrios vulnerables.
+          </li>
+        </ul>
+        <p>
+          Esta solución no solo mejora la eficiencia operativa de los bomberos, 
+          sino que también potencia la seguridad ciudadana y reduce pérdidas económicas y humanas.
+        </p>
+      </section>
+
+      <section>
+        <h2>4. Identificación de Stakeholders</h2>
+        <p>
+          Los siguientes actores clave están involucrados directa o indirectamente en el sistema y se verán afectados por su implementación:
+        </p>
+        <table border="1" cellpadding="8" cellspacing="0">
+          <thead>
+            <tr>
+              <th>Stakeholder</th>
+              <th>Rol / Interés</th>
+              <th>Impacto de la solución</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Cuerpo de Bomberos</strong></td>
+              <td>Usuarios principales. Necesitan registrar y consultar incidentes, analizar tendencias y planificar operaciones.</td>
+              <td>Directo: Mejora su capacidad de análisis, prevención y respuesta.</td>
+            </tr>
+            <tr>
+              <td><strong>Autoridades Municipales</strong></td>
+              <td>Responsables de la gestión de emergencias, seguridad urbana y planificación.</td>
+              <td>Directo: Toman decisiones estratégicas basadas en datos.</td>
+            </tr>
+            <tr>
+              <td><strong>Ciudadanos</strong></td>
+              <td>Pueden verse afectados por incendios y necesitan información de riesgo y prevención.</td>
+              <td>Indirecto: Mayor seguridad y acceso a información pública.</td>
+            </tr>
+            <tr>
+              <td><strong>Organismos de Gestión de Riesgos</strong></td>
+              <td>Trabajan en prevención de desastres y coordinación entre instituciones.</td>
+              <td>Directo: Integración de datos para planes de emergencia.</td>
+            </tr>
+            <tr>
+              <td><strong>Desarrolladores / Técnicos</strong></td>
+              <td>Responsables del mantenimiento y evolución de la plataforma.</td>
+              <td>Indirecto: Necesitan una arquitectura escalable y segura.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>5. Relevancia del Proyecto</h2>
+        <p>
+          Este proyecto es altamente relevante porque:
+        </p>
+        <ul>
+          <li>
+            <strong>Aborda un problema real y urgente:</strong> 
+            Los incendios son una amenaza constante en muchas ciudades, especialmente con el aumento de temperaturas y la expansión urbana.
+          </li>
+          <li>
+            <strong>Utiliza el poder de los datos:</strong> 
+            Transforma información dispersa en conocimiento accionable para la prevención y respuesta.
+          </li>
+          <li>
+            <strong>Tiene potencial de escalabilidad:</strong> 
+            La solución puede adaptarse fácilmente a otras ciudades o regiones con necesidades similares.
+          </li>
+          <li>
+            <strong>Promueve la innovación en servicios públicos:</strong> 
+            Introduce tecnologías accesibles para mejorar la gestión de emergencias.
+          </li>
+          <li>
+            <strong>Contribuye al bien común:</strong> 
+            Reduce riesgos para la vida humana, protege bienes materiales y fortalece la confianza ciudadana en las instituciones.
+          </li>
+        </ul>
+        <div class="highlight">
+          🚒 <strong>Objetivo final:</strong> 
+          Transformar una respuesta reactiva en una estrategia proactiva basada en datos, mejorando la seguridad urbana.
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
